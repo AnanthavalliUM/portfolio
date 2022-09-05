@@ -68,12 +68,12 @@ export default function Contact() {
                        Having an Idea/Project in mind?
                    </QuestionHeader>
                         <Discuss >
-                            <button className="btn btn-success" style={{fontSize:"1.7rem",marginRight:"4rem"}}><a style={{color:"inherit",textDecoration:"none"}} href="mailto:ananthavalli1993@gmail.com">Let's Discuss </a></button>
+                            <button className="btn btn-success" style={{fontSize:"1.7rem",marginRight:"4rem"}}><a style={{color:"inherit",textDecoration:"none"}} href="mailto:mayublade@gmail.com">Let's Discuss </a></button>
                         </Discuss>
                         <ContactContainer>
-                            <div ><Button  className="btn btn-primary p-3"><AiOutlineMail/><a style={{color:"inherit",textDecoration:"none"}} href="mailto:ananthavalli1993@gmail.com">ananthavalli1993@gmail.com</a></Button></div>
-                            <div ><Button  className="btn btn-primary p-3"><FiSmartphone/><a style={{color:"inherit",textDecoration:"none"}} href="tel:+91 8870500591">+91-8870500591</a></Button></div>
-                            <div ><Button  className="btn btn-primary p-3"><FiMapPin/>Tenkasi,Tamilnadu</Button></div>
+                            <div ><Button  className="btn btn-primary p-3"><AiOutlineMail/><a style={{color:"inherit",textDecoration:"none"}} href="mailto:mayublade@gmail.com">mayublade@gmail.com</a></Button></div>
+                            <div ><Button  className="btn btn-primary p-3"><FiSmartphone/><a style={{color:"inherit",textDecoration:"none"}} href="tel:+918870293627">+91-8870293637</a></Button></div>
+                            <div ><Button  className="btn btn-primary p-3"><FiMapPin/>Trichy,Tamilnadu</Button></div>
                         </ContactContainer>
                </InnerContainer>
             </Container>
