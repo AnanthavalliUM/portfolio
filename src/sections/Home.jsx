@@ -4,6 +4,7 @@ import Wave from 'react-wavify'
 import TextTransition, { presets } from "react-text-transition";
 import { HiDocumentDownload } from "react-icons/hi";
 import { AiFillAppstore } from "react-icons/ai";
+import Resume from "../assets/ANANTHAVALLI.pdf"
 import {Link as LinkS} from 'react-scroll' 
 import { small } from '../responsive';
 
@@ -77,8 +78,8 @@ export default function Home() {
 
             <MainDiv>
                 <Container className="text-justify" >
-                    <HeaderContainer>Ananthavalli </HeaderContainer>
-                    <SContainer ><p >Full stack Developer who likes building stuffs with</p></SContainer>
+                    <HeaderContainer> Ananthavalli</HeaderContainer>
+                    <SContainer ><p >Full Stack Developer</p></SContainer>
                     <TContainer>
                     <TextTransition
                         text={ TEXTS[index % TEXTS.length] }
@@ -86,7 +87,7 @@ export default function Home() {
                     />
                     </TContainer>
                     <SContainer>
-                        {/* <button className="btn btn-success"><a style={{color:"inherit",textDecoration:"none"}} href={Resume} download><HiDocumentDownload style={{fontSize:"1.5rem"}}/>Resume</a></button> */}
+                        <button className="btn btn-success"><a style={{color:"inherit",textDecoration:"none"}} href={Resume} download><HiDocumentDownload style={{fontSize:"1.5rem"}}/>Resume</a></button>
                         <button className="btn btn-secondary mx-2"> <AiFillAppstore style={{fontSize:"1.5rem"}}/>
                         <NavLinks to='projects' spy={true} smooth={true}  duration={500}>Project</NavLinks>
                         </button>
